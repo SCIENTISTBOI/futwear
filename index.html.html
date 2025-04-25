@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        
+        <link rel="stylesheet" href="file.css">
+      
+        <title>
+            footwearshop
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+      
+    </head>
+    <body id="bodi">
+        <section>
+            <img src="F LOGOOO.jpg" class="logo">
+            <div class="banner-text">
+                <h1> FOOTWEAR SHOP</h1>
+                <P> Walk comfortably in our shoes</P>
+            </div>
+            <div class="banner-btn"> 
+                <a href="kids.html"><span></span> FIND OUT</a>
+                <a href="women.html"><span></span>READ MORE</a>
+
+            </div>
+
+        </section>
+        <div id="sidebar">
+            <nav>
+            <ul>
+                <li><a href="men.html">MEN SHOES</a> </li>
+                <li> <a href="women.html">WOMEN SHOES</a> </li>
+                <li><a href="kids.html"> KIDS SHOES</a> </li>
+                <li><a href="contact.html"> CONTACT</a> </li>
+            </ul>
+        </nav>
+
+        </div>
+        <div id="menu">
+            <img src="MENU.jpg" id="menuimage">
+
+        </div>
+        <script>
+            var menu=document.getElementById("menu")
+            var sidebar=document.getElementById("sidebar")
+            var menuimage=document.getElementById("menuimage")
+            sidebar.style.right="-20px"
+
+            menu.onclick=function()
+            {
+                if( sidebar.style.right== "-20%"){
+                    sidebar.style.right="0";
+                    menuimage.src="CLOSEEEE.jpg"
+                
+                }
+                else{
+                    sidebar.style.right= "-20%";
+                    menuimage.src="MENU.jpg"
+                
+                }
+            }
+        </script>
+      
+        
+    </body>
+</html>

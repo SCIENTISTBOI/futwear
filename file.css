@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bodi{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url(foot\ logo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 50px;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 50px auto 0;
+    padding-left: 170px;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color:white;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+     z-index: -1;
+     transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+
+}
+.banner-btn a:hover{
+    color: black;
+}
+#sidebar{
+    width: 21%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background:rgb(122, 158, 122);
+    z-index: 2;
+}
+nav ul li{
+    list-style: none;
+    margin: 20% 10%;
+}
+nav ul li a
+    {
+        text-decoration: none;
+        color: #fff;
+    }
+    #menu{
+        width: 5px;
+        height: 5px;
+        background: #009688;
+        text-align: center;
+        position: fixed;
+        right: 3px;
+        top: 2px;
+        border-radius: 3px;
+        z-index: 3;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    #menu img{
+        width: 20px;
+    }
+    @media screen and (max-width: 770px)
+        
+    {
+    .banner-text h1{
+        font-size: 20px;
+    
+    }
+    
+
+
+    
+        .banner-btn a{
+            display: block;
+            margin: 30px 1px;
+            width: 100px;
+            padding-left: 10%;
+        
+            
+        }
+        
+        
+        }
+        .women{
+            display: flex;
+            padding: 10px 5px;
+            margin-left: 5px;
+        }
+        .women img{
+            margin: 10px;
+        }
+        #feature{
+            width: 100%;
+            padding: 20px 0;
+            background-color: red;
+        }
+        .women{
+     
+        text-align: center;
+        }
+        .women p {
+            color: red;
+            font-weight: bold;
+            margin: auto;
+            font-size: 20px;
+
+        }
+      
+        
+
+    
